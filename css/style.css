@@ -28,3 +28,18 @@ a{
 .block:nth-child(even){
     background-color: bisque;
 }
+
+#scrolltotop{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    height: 100px;
+    width: 100px;
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
