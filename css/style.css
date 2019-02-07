@@ -1,0 +1,30 @@
+body, *{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+nav{
+    background: #515151;
+}
+ul{
+    padding: 20px 20%;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.block{
+    height: 400px;
+}
+.block:nth-child(odd){
+    background-color: antiquewhite;
+}
+.block:nth-child(even){
+    background-color: bisque;
+}
