@@ -8,4 +8,8 @@ $(window).on("scroll",function(){
     if(positionY < 1500){
         $("#scrolltotop").css("opacity", 0);
     }
+
+    // lorsque positionY est supérieur à 100
+        // réduire height de la nav 
+        // positionner la nav en fixe en haut de la page
 })
