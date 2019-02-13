@@ -45,3 +45,8 @@ a{
     font-size: 4em;
     transition: all 1s;
 }
+.nav-bar.sup100{
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
